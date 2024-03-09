@@ -19,6 +19,7 @@ body {
   background-image: #fff;
   font-family: "Open Sans", sans-serif;
   margin-top: 3rem;
+  background-color: aqua;
 }
 
 .attendees {
@@ -73,7 +74,8 @@ h1 {
 }
 
 .fa-envelope {
-  color: #ccc;
+  /* changed color to envelope */
+  color: tomato;
 }
 
 button {
@@ -154,4 +156,9 @@ footer {
   .guest-list {
     width: 70%;
   }
+}
+
+/* added font weight to label */
+label {
+  font-weight: bold;
 }
