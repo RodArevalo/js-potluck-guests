@@ -40,18 +40,18 @@ const updateGuestCount = function () {
 
 const assignItems = function () {
   const potluckItems = [
-    "cheese",
-    "crackers",
-    "fresh fruit",
-    "coleslaw",
+    "sandwich",
+    "chocolate chip cookie",
+    "fruits",
+    "caesar salad",
     "apple cake",
-    "gazpacho",
-    "baguette",
+    "tortilla soup",
+    "salmon",
     "egg salad",
-    "potato salad",
-    "summer rolls",
-    "hummus",
-    "cookies",
+    "backed potatoes",
+    "beef stew",
+    "roasted chicken",
+    "drinks",
   ];
 
   const allGuests = document.querySelectorAll(".guest-list li");
@@ -61,7 +61,7 @@ const assignItems = function () {
     let randomPotluckItem = potluckItems[randomPotluckIndex];
 
     let listItem = document.createElement("li");
-    listItem.innerText = `${guest.innerText} is bringing ${randomPotluckItem}.`;
+    listItem.innerText = `${guest.innerText} will bring ${randomPotluckItem}.`;
     assignedItems.append(listItem);
 
     potluckItems.splice(randomPotluckIndex, 1);
