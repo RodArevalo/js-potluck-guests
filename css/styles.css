@@ -13,13 +13,15 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: rgb(46, 42, 42);
+  color: white;
   font-size: 16px;
   text-align: center;
-  background-image: #fff;
+  background-image: #474444;
   font-family: "Open Sans", sans-serif;
   margin-top: 3rem;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-image: url("https://www.sidechef.com/article/22c77225-cea0-4c37-9ebe-cbc113b9a2fc.jpg?d=1408x1120");
+  background-size: cover;
 }
 
 .attendees {
@@ -109,7 +111,7 @@ input:focus {
 }
 
 .guest-list {
-  color: #292929;
+  color: white;
 }
 
 .assigned-items li {
